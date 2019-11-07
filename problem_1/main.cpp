@@ -4,6 +4,9 @@
 
 int main()
 {
-    /// input your code here
+    std::string user;
+    std::cout << "Input your username: ";
+    std::cin >> user;
+    std::cout << "\nHello, " << user << "\n";
     return 0;
 }
